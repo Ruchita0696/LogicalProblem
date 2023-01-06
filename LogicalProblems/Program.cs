@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Number to Check Number is Prime or Not : ");
-            int pn = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Number to get Reverse Number : ");
+            int r = Convert.ToInt32(Console.ReadLine());
 
-            PrimeNumber prime = new PrimeNumber();
-            prime.CheckPrimeNumber(pn);
+            ReverseNumber reverse = new ReverseNumber();
+            reverse.CalculateReverseNumber(r);
         }
     }
 }
