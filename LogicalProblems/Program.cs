@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Number of Elements : ");
-            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Number to Check Number is Perfect or Not : ");
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            FibonacciSeries series = new FibonacciSeries();
-            series.CalculateFibonacciSeries();
+            PerfectNumber perfect = new PerfectNumber();
+            perfect.CheckPerfectNumber(n);
         }
     }
 }
