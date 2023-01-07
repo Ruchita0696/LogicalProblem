@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Number to get Reverse Number : ");
-            int r = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Number for how many times to print the statement to get time elapsed for it : ");
+            int st = Convert.ToInt32(Console.ReadLine());
 
-            ReverseNumber reverse = new ReverseNumber();
-            reverse.CalculateReverseNumber(r);
+            Stopwatchprogram watch = new Stopwatchprogram();
+            watch.CalculateStopWatchTime(st);
         }
     }
 }
